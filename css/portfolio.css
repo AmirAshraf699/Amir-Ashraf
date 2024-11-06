@@ -146,14 +146,16 @@ header nav ul.links a:hover {
     color: var(--yellow);
 }
 
-header nav ul.links a.contact-me {
+header nav ul.links a.arabic,
+header nav ul.links a.english {
     color: var(--white);
     background-color: var(--yellow);
     transition: var(--transition);
     border-radius: 6px;
 }
 
-header nav ul.links a.contact-me:hover {
+header nav ul.links a.arabic:hover,
+header nav ul.links a.english:hover {
     background-color: var(--yellow-alt);
 }
 
@@ -591,25 +593,25 @@ header nav .toggle-menu span:not(:last-of-type) {
 }
 
 .profiles .content,
-.profiles .links {
+.profiles .profile-links {
     flex: 1;
 }
 
-.profiles .links {
+.profiles .profile-links {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 50px;
 }
 
-.profiles .links li a {
+.profiles .profile-links li a {
     display: inline-block;
     color: var(--white);
     font-size: 45px;
     text-align: center;
 }
 
-.profiles .links li a p {
+.profiles .profile-links li a p {
     font-size: 14px;
 }
 

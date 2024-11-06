@@ -1,0 +1,243 @@
+doctype html
+html(dir="rtl" lang="ar")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./css/normalize.css")
+        link(rel="stylesheet", href="./css/all.min.css")
+        link(rel="stylesheet", href="./css/portfolio.css")
+        link(rel="stylesheet", href="./css/portfolio-Arabic.css")
+        link(rel="preconnect", href="https://fonts.googleapis.com")
+        link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin) 
+        link(href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap", rel="stylesheet")
+        title Amir Ashraf
+    body 
+        header 
+            .container 
+                .logo Amir
+                nav 
+                    ul(class="links")
+                        li: a(href="#about") ماذا عني
+                        li: a(href="#skills") المهارات
+                        li: a(href="#projects") المشروعات
+                        li: a(href="#contact") اتصل بي
+                        li: a(href=".//index.html" class="english") English
+                    div(class="toggle-menu")
+                        span 
+                        span 
+                        span
+        div(class="landing")
+            .container
+                div(class="text")
+                    h1 مرحباً, اسمي
+                        span  أمير أشرف
+                    p أنا مطور واجهة أمامية
+                    div(class="links")
+                        a(href="http://https://www.linkedin.com/in/amir-ashraf2899")
+                            i(class="fa-brands fa-linkedin")
+                        a(href="http://")
+                            i(class="fa-brands fa-github")
+                        a(href="http://https://www.instagram.com/amir_ashraf286")
+                            i(class="fa-brands fa-instagram")
+                a(href="#about" class="about-me") 
+                    canvas(id="landing-canvas" width="30" height="35")
+        div(class="about" id="about")
+            .container
+                img(src="./imgs/My-pic.png", alt="Amir")
+                .content 
+                    h2.second-title ماذا عني
+                    .text 
+                        | أنا مطور واجهة أمامية مبتدئ ولدي أساس متين,
+                        | أعيش في الجيزة، مصر، وأنهيت خدمتي العسكرية في ديسمبر 2022
+                        br
+                        | منذ أن كنت صغيراً، كنت مهتمًا بعلوم الكمبيوتر
+                        | وخاصة البرمجة، وأخيراً، في عام 2022 قررت أن أبدأ مساري المهني الجديد
+                        | .وأصبح مطور الواجهة الأمامية
+                        br
+                        | بدأت مغامرتي بدورات نظمتها بنفسي، تعلمت عبر الإنترنت وتعلمت الأساسيات وبعض موضوعات البرمجة الأكثر تقدمًا مثل JavaScript.
+                        | ثم بدأت دورة إضافية في Vue.js.
+                        | وهناك تعلمت المزيد حول حل المشكلات المعقدة والتغلب على التحديات من خلال العمل مع Vue.js.
+                        | أواصل تحسين طريقي بنفسي، حيث تكون نقاط تركيزي الحالية هي: React.js وRedux وNext.js.
+                        br
+                        | لم أتخذ خطواتي المهنية الأولى، أنا مستعد لاتخاذها على الفور.
+                        br
+                        | على المستوى الشخصي، أنا مهتم بالابتكارات التكنولوجية،
+                        | وأحاول باستمرار تطوير وتوسيع آفاقي،
+                        | أنا متحمس لتعلم أشياء جديدة ومواجهة التحديات المختلفة,
+                        | انا أستسلم أبدًا وأسعى دائمًا لتحقيق أهدافي الحالية،
+                        | أنا شخص منفتح وودود ذو شخصية قوية.
+                    .info 
+                        a(href="./pdf/Amir Ashraf Amir.pdf" download="" target="_blank") تحميل السيرة الذاتية
+                        a(href="#contact") اتصل بي
+        div(class="skills" id="skills")
+            .container 
+                .content
+                    .explain-skills
+                        h2.second-title المهارات
+                        p.top
+                            | لقد تعلمت لغة Html وCss كلغة قالب.
+                            br
+                            | تعلمت JavaScript وTypeScript وPython كلغات برمجة،
+                            br
+                            | Reactjs وVuejs/Nuxt.js كأطر عمل جافا سكريبت
+                        p.bottom
+                            | تعلمت بعض الأطر والمكتبات مثل bootstrap، وSass، وPugjs، وGulpjs، وJestjs،
+                            br
+                            | vuex, Pinia and Vuetify
+                            br
+                            | وبعض المهارات مثل Git وGithub وCommandline وOOP وبنية البيانات،
+                            br
+                            | الخوارزميات، الرسم ثنائي الابعاد، حل المشكلات، والويب سريع الاستجابة
+                        p.bottom أنا أعمل على Redux وRedux Toolket وNextjs.
+                        a(href="#contact") اتصل بي
+                    .all-skills
+                        .my-skills
+                            .image 
+                                img(src="./imgs/html.png", alt="")
+                                p Html
+                            .image 
+                                img(src="./imgs/CSS.png", alt="")
+                                p Css
+                            .image 
+                                img(src="./imgs/js.png", alt="")
+                                p JavaScript
+                            .image 
+                                img(src="./imgs/ts.png", alt="")
+                                p TypeScript
+                            .image 
+                                img(src="./imgs/Python.png", alt="")
+                                p Python
+                            .image 
+                                img(src="./imgs/vue.png", alt="")
+                                p Vue.js
+                            .image 
+                                img(src="./imgs/vuex.png", alt="")
+                                p Vuex
+                            .image 
+                                img(src="./imgs/vuetify.png", alt="")
+                                p Vuetify
+                            .image 
+                                img(src="./imgs/nuxt.png", alt="")
+                                p Nuxt.js
+                            .image 
+                                img(src="./imgs/react.png", alt="")
+                                p React.js
+                            .image 
+                                img(src="./imgs/pug.png", alt="")
+                                p Pug
+                            .image 
+                                img(src="./imgs/gulp.png", alt="")
+                                p Gulp
+                            .image 
+                                img(src="./imgs/jest.png", alt="")
+                                p jest
+                            .image 
+                                img(src="./imgs/bootstrap.png", alt="")
+                                p Bootstrap
+                            .image 
+                                img(src="./imgs/sass.png", alt="")
+                                p Sass
+                            .image 
+                                img(src="./imgs/git.png", alt="")
+                                p Git
+                            .image 
+                                img(src="./imgs/github.png", alt="")
+                                p Github
+                            .image 
+                                img(src="./imgs/commandline.png", alt="")
+                                p Command line
+                        p.working Working on...
+                        .my-skills 
+                            .image 
+                                img(src="./imgs/redux.svg", alt="")
+                                p
+                            .image 
+                                img(src="./imgs/next.png", alt="")
+                                p
+        div(class="projects" id="projects")
+            .container
+                i(class="fa-solid fa-angle-right fa-2xl right")
+                i(class="fa-solid fa-angle-left fa-2xl left")
+                .project.open
+                    .image
+                        img(src="./imgs/project-1.jpg", alt="")
+                    .text 
+                        h3 E-commerce 
+                        p 
+                        a(href="http://" class="show"  target="_blank") رابط الكود
+                .project
+                    .image
+                        img(src="./imgs/project-2.jpg", alt="")
+                    .text 
+                        h3 Landing page 
+                        p 
+                            | PSD template, flat design with vibrant colors.
+                            | This landing page is great for representing your portfolio or other types of websites.
+                            br
+                            | Using Pug.js for HTML, CSS, Js and Gulp.js.
+                        a(href="http://"  class="show"  target="_blank") رابط الكود
+                .project
+                    .image
+                        img(src="./imgs/project-3.jpg", alt="")
+                    .text 
+                        h3 Dashboard 
+                        p 
+                            | A Dasbourd website for portfolio, projects and courses for personal or companies.
+                            br
+                            | Using Html, Sass (for css file), Js and Vue.js
+                        a(href="http://"  class="show"  target="_blank") رابط الكود
+        div(class="profiles" id="profiles")
+            .container
+                ul.profile-links 
+                    li 
+                        a(href="https://www.linkedin.com/in/amir-ashraf2899" target="_blank") 
+                            i(class="fa-brands fa-linkedin")
+                            p  لينكدان
+                    li 
+                        a(href="https://www.github.com/amirashraf699" target="_blank") 
+                            i(class="fa-brands fa-github")
+                            p جيت هاب
+                    li 
+                        a(href="https://www.instagram.com/amir_ashraf699" target="_blank") 
+                            i(class="fa-brands fa-instagram")
+                            p انستجرام
+                .content 
+                        .second-title حسابي
+                        p.ask اسألني أي شيء أو قل مرحباً..
+                        p.phone
+                            i(class="fa-solid fa-phone")
+                            | 01148622443
+                        p.mail 
+                            i(class="fa-solid fa-envelope") 
+                            | amirashraf2899@gmail.com
+        div(class="contact" id="contact")
+            .container
+                .content 
+                    .data
+                        h2.second-title اتصل بي
+                        p.ask اسألني أي شيء أو قل مرحباً..
+                        p.phone
+                            i(class="fa-solid fa-phone")
+                            | 01148622443
+                        p.mail 
+                            i(class="fa-solid fa-envelope") 
+                            | amirashraf2899@gmail.com
+                    form(action="" id="contact-form")
+                        div 
+                            label(for="name") الاسم بالكامل
+                            input(type="text" name="name" id="name" required class="name" placeholder="الاسم الاول والاخير")
+                        div 
+                            label(for="email") البريد الالكتروني
+                            input(type="email" name="email" id="email" required class="email" placeholder="عنوان البريد الالكتروني")
+                        div 
+                            label(for="subject") الموضوع
+                            input(type="text" name="subject" id="subject" required class="subject" placeholder="الموضوع")
+                        div 
+                            label(for="message") 
+                            textarea(name="message" id="message" required class="message" placeholder="اكتب رسالتك") 
+                        div(class="send")
+                            label(for="") 
+                            button(name="submit" onclick="sendMail()") ارسال
+                            i(class="fa-solid fa-arrow-right")
+        script(src="./js/main.js")
+        script(src="./js//canvas.js")
