@@ -191,7 +191,7 @@ header nav .toggle-menu span:not(:last-of-type) {
     header nav ul.links {
         position: absolute;
         display: none;
-        top: 30px;
+        top: 25px;
         right: 0;
         background-color: rgba(0, 0, 0, 0.5);
         width: 200px;
@@ -202,15 +202,6 @@ header nav .toggle-menu span:not(:last-of-type) {
         display: block;
     }
 
-    header nav ul.links::after {
-        content: "";
-        position: absolute;
-        border-width: 8px;
-        border-style: solid;
-        border-color: transparent transparent rgba(0, 0, 0, 0.5) transparent;
-        top: -16px;
-        right: 4px;
-    }
 
     header nav ul.links a {
         display: block;
